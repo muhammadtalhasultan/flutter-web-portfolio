@@ -7,12 +7,20 @@ import '../../constraints/colors.dart';
 import '../../constraints/strings.dart';
 import '../../providers/themeProvider.dart';
 
-class SectionRight extends StatelessWidget {
+class SectionRight extends StatefulWidget {
   SectionRight({Key? key}) : super(key: key);
 
+  @override
+  State<SectionRight> createState() => _SectionRightState();
+}
+
+class _SectionRightState extends State<SectionRight> {
   late Color linkColor;
+
   late Color title_color;
+
   late Color desColor;
+
   late Color hoberIconColor;
 
   @override
@@ -39,7 +47,10 @@ class SectionRight extends StatelessWidget {
                         hoverColor: Colors.transparent,
                         child: Text(
                           gmail_address,
-                          style: TextStyle(color: hoverColor,fontSize: 13,letterSpacing: 2),
+                          style: TextStyle(
+                              color: hoverColor,
+                              fontSize: 13,
+                              letterSpacing: 2),
                         ),
                       ));
                 },

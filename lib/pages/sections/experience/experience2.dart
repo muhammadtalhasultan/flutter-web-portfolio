@@ -9,12 +9,20 @@ import '../../../constraints/responsive.dart';
 import '../../../constraints/strings.dart';
 import '../../../providers/themeProvider.dart';
 
-class Experience2 extends StatelessWidget {
-  Experience2({Key? key}) : super(key: key);
+class ExperienceTwo extends StatefulWidget {
+  const ExperienceTwo({Key? key}) : super(key: key);
 
+  @override
+  State<ExperienceTwo> createState() => _ExperienceTwoState();
+}
+
+class _ExperienceTwoState extends State<ExperienceTwo> {
   late Color linkColor;
+
   late Color title_color;
+
   late Color desColor;
+
   late Color hoberImageColor;
 
   @override
@@ -52,7 +60,6 @@ class Experience2 extends StatelessWidget {
     );
   }
 
-
   Widget buildDescription(String des){
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -64,9 +71,7 @@ class Experience2 extends StatelessWidget {
     );
   }
 
-
   Future launchExperienceSite()async{
     await launch(scout_url);
   }
-
 }

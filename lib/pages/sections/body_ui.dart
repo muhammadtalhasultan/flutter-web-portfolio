@@ -3,7 +3,6 @@ import 'package:client_portfolio/pages/sections/projects/project_section.dart';
 import 'package:client_portfolio/pages/sections/rightSection_body.dart';
 import 'package:client_portfolio/widgets/showAnimtion.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 import '../../services/ChangePage.dart';
@@ -27,8 +26,8 @@ class _Body_uiState extends State<Body_ui> {
 
   //create a list of all sections of homepage
   final page=[
-    Home(),
-    About_Section(),
+    HomePage(),
+    AboutSection(),
     ExperienceSection(),
     ProjectSection(),
     ContactSection(),

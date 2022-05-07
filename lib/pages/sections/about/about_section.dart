@@ -9,12 +9,20 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class About_Section extends StatelessWidget {
-   About_Section({Key? key}) : super(key: key);
+class AboutSection extends StatefulWidget {
+   AboutSection({Key? key}) : super(key: key);
 
+  @override
+  State<AboutSection> createState() => _AboutSectionState();
+}
+
+class _AboutSectionState extends State<AboutSection> {
   late Color linkColor;
+
   late Color title_color;
+
   late Color desColor;
+
   late Color hoberImageColor;
 
   @override
@@ -170,8 +178,7 @@ class About_Section extends StatelessWidget {
         }
 
         return Stack(
-          fit: StackFit.passthrough,
-          overflow: Overflow.visible,
+          clipBehavior: Clip.none, fit: StackFit.passthrough,
           children: [
             Positioned(
               bottom: top_margin,
@@ -205,7 +212,7 @@ class About_Section extends StatelessWidget {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8),
                       image: DecorationImage(
-                          image: AssetImage('assets/my_pic.JPG'),
+                          image: AssetImage('assets/picture.JPEG'),
                           fit: BoxFit.cover
                       )
                   ),
@@ -217,10 +224,6 @@ class About_Section extends StatelessWidget {
       },
     );
   }
-
-
-
-
 
   //to launch all url
    Future launchAdvertising()async{

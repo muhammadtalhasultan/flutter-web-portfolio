@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -21,8 +20,8 @@ class Light_Dark_Mode extends StatelessWidget {
         },
         child: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: isDark ? Icon(Icons.light_mode_outlined) : Icon(Icons.dark_mode),
-        )
-    );
+          child:
+              isDark ? Icon(Icons.light_mode_outlined) : Icon(Icons.dark_mode),
+        ));
   }
 }

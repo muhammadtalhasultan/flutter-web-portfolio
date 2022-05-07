@@ -5,11 +5,9 @@ import 'package:provider/provider.dart';
 
 import 'constraints/strings.dart';
 
-
-void main(){
+void main() {
   runApp(MyApp());
 }
-
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -21,13 +19,13 @@ class MyApp extends StatelessWidget {
       builder: (context, _) {
         final themeProvider = Provider.of<ThemeProvider>(context);
         return MaterialApp(
-            title: app_name,
-            debugShowCheckedModeBanner: false,
-            theme: MyTheme.lightTheme,
-            darkTheme: MyTheme.darkTheme,
-            themeMode: themeProvider.themeMode,
-            home: SplashScreen(),
-          );
+          title: app_name,
+          debugShowCheckedModeBanner: false,
+          theme: MyTheme.lightTheme,
+          darkTheme: MyTheme.darkTheme,
+          themeMode: themeProvider.themeMode,
+          home: SplashScreen(),
+        );
       },
     );
   }
