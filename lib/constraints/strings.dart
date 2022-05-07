@@ -26,32 +26,32 @@ String work_ = "Work";
 String contact_ = "Contact";
 
 //all urls of app
-String upStatement_url = "https://upstatement.com";
+String upStatement_url = "https://talhasultan.dev";
 String course_url = "https://github.com/muhammadtalhasultan";
-String advertising_url = "https://upstatement.com";
-String startUP_url = "https://upstatement.com";
-String corporation_url = "https://upstatement.com";
-String designStudio_url = "https://upstatement.com";
-String launchedCourse_url = "https://upstatement.com";
+String advertising_url = "https://talhasultan.dev";
+String startUP_url = "https://talhasultan.dev";
+String corporation_url = "https://talhasultan.dev";
+String designStudio_url = "https://talhasultan.dev";
+String launchedCourse_url = "https://talhasultan.dev";
 
-String scout_url = "https://upstatement.com"; //experience
-String apple_url = "https://upstatement.com"; //experience
-String starry_url = "https://upstatement.com"; //experience
-String mullenLowe_url = "https://upstatement.com"; //experience
+String scout_url = "https://talhasultan.dev"; //experience
+String apple_url = "https://talhasultan.dev"; //experience
+String starry_url = "https://talhasultan.dev"; //experience
+String mullenLowe_url = "https://talhasultan.dev"; //experience
 
 //project url
-String builtItem1_url = "https://upstatement.com";
-String builtItem2_url = "https://upstatement.com";
-String builtItem3_url = "https://upstatement.com";
+String builtItem1_url = "https://talhasultan.dev";
+String builtItem2_url = "https://talhasultan.dev";
+String builtItem3_url = "https://talhasultan.dev";
 
-String builtItem1Git = "https://upstatement.com";
-String builtItem1ExtraLink = "https://upstatement.com";
+String builtItem1Git = "https://talhasultan.dev";
+String builtItem1ExtraLink = "https://talhasultan.dev";
 
-String builtItem2Git = "https://upstatement.com";
-String builtItem2ExtraLink = "https://upstatement.com";
+String builtItem2Git = "https://talhasultan.dev";
+String builtItem2ExtraLink = "https://talhasultan.dev";
 
-String builtItem3Git = "https://upstatement.com";
-String builtItem3ExtraLink = "https://upstatement.com";
+String builtItem3Git = "https://talhasultan.dev";
+String builtItem3ExtraLink = "https://talhasultan.dev";
 
 //all social link of mine
 String fb_url = 'https://www.facebook.com/TalhaSultanDev';
@@ -208,38 +208,38 @@ String archive_buttonName = "view the archive";
 //I created a data list of all projects using project class
 List<Project> allProjects = [
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Time to Have More Fun',
       'A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS',
       'Next.js   Tailwind CSS   Firebase'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Building a Headless Mobile App CMS From Scratch',
       'Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement',
       'Node   Express   Firebase   Vue'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'OctoProfile',
       'A nicer look at your GitHub profile and repo stats. Includes data visualizations of your to languages, starred repositories, and sort through your top repos by number of stars, forks, and size',
       'Next.js   Chart.js   GitHub API'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
@@ -247,50 +247,50 @@ List<Project> allProjects = [
 
 List<Project> moreProjects = [
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Time to Have More Fun',
       'A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS',
       'Next.js   Tailwind CSS   Firebase'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Building a Headless Mobile App CMS From Scratch',
       'Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement',
       'Node   Express   Firebase   Vue'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'OctoProfile',
       'A nicer look at your GitHub profile and repo stats. Includes data visualizations of your to languages, starred repositories, and sort through your top repos by number of stars, forks, and size',
       'Next.js   Chart.js   GitHub API'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
   Project(
-      'https://upstatement.com',
-      'https://upstatement.com',
+      'https://talhasultan.dev',
+      'https://talhasultan.dev',
       'Integrating Algolia Search with WordPress Multisite',
       'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
       'Algolia   Wordpress   PHP'),
@@ -305,83 +305,83 @@ List<Archive> archiveList = [
       'Koala Health',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2021',
       'Philadelphia Inquirer Sports Scoreboards',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive('2021', 'Vanderbilt Design System', 'Upstatement', 'Twig·Puppy·JS',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive('2021', 'Michelle Wu for Boston Grassroots Toolkit', 'Upstatement',
-      'Gatsby·Styled Components', 'https://upstatement.com'),
+      'Gatsby·Styled Components', 'https://talhasultan.dev'),
   Archive(
       '2021',
       'The 19th News',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2021',
       'Northeastern CSSH',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2020',
       'Integrating Algolia Search with WordPress Multisite',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2020',
       'Time to Have More Fun',
       '___',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2020',
       'Upstatement.com',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2020',
       'Building a Headless Mobile App CMS From Scratch',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2019',
       'Moms Demand Action Mobile App',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2019',
       'OctoProfile',
       '___',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2020',
       'Google Keep Clone',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2019',
       'Spotify Profile',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
   Archive(
       '2019',
       'Devoted Health',
       'Upstatement',
       'Next.js·TypeScript·Redux Toolkit·Stripe·Algolia·Firebase Auth·Formik·Yup·Vercel',
-      'https://upstatement.com'),
+      'https://talhasultan.dev'),
 ];
 
 //section of contacts
